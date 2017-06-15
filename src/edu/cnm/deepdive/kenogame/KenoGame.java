@@ -28,7 +28,9 @@ public class KenoGame {
    catch (IllegalArgumentException ex) {
      ex.printStackTrace();
      System.out.printf(USAGE_MESSAGE, KenoGame.class.getName());
+     System.exit(1);
    }
+   
    
   }
   
